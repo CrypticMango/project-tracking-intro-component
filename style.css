@@ -20,8 +20,82 @@ body {
     font-weight: 400;
 }
 
+main {
+    margin: 30px;
+}
+
 footer {
     text-align: center;
+}
+
+nav {
+    width: 100%;
+    font-family: var(--barlow-condensed);
+    text-align: center;
+}
+
+.nav-logo-ham {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--barlow-condensed);
+    text-transform: uppercase;
+    color: var(--very-dark-blue);
+}
+
+button {
+    font-family: var(--barlow-condensed);
+    background-color: var(--red);
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.devices {
+    width: 90%;
+    margin-bottom: 80px;
+}
+
+.new {
+    background-color: var(--very-dark-blue);
+    color: white;
+    border-radius: 17px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--barlow-condensed);
+    letter-spacing: 1px;
+}
+
+.mono {
+    font-family: var(--barlow-condensed);
+    text-transform: uppercase;
+    color: var(--grayish-blue);
+   margin-left: 10px;
+   letter-spacing: 5px;
+}
+
+.project-plan {
+    color:  var(--dark-grayish-blue);
+}
+
+.preview {
+    font-family: var(--barlow-condensed);
+    text-transform: uppercase;
+    color: var(--grayish-blue);
+    margin-left: 10px;
 }
 
 .attribution {
@@ -29,9 +103,11 @@ footer {
 	text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--red);
 }
 
 .fa-brands {
     color: var(--red);
+    margin: 30px;
+    font-size: 30px;
 }
