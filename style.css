@@ -24,9 +24,7 @@ main {
     margin: 30px;
 }
 
-footer {
-    text-align: center;
-}
+/*navigation general styling*/
 
 nav {
     width: 100%;
@@ -35,17 +33,12 @@ nav {
     margin-top: 40px;
 }
 
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.the-burger {
-    height: 100%;
-}
-
-.geo-logo {
-    width: 24px;
+nav a {
+    text-decoration: none;
+    color: var(--very-dark-blue);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 ul {
@@ -55,14 +48,6 @@ ul {
     list-style-type: none;
     padding: 10px 0px;
     display: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--very-dark-blue);
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 hr {
@@ -77,6 +62,8 @@ li {
 .login {
     color: var(--grayish-blue);
 }
+
+/*navigation styling end*/
 
 h1 {
     font-family: var(--barlow-condensed);
@@ -94,6 +81,27 @@ button {
     font-size: 13px;
     text-transform: uppercase;
 }
+
+footer {
+    text-align: center;
+}
+
+/*navigation bar*/
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-burger {
+    height: 100%;
+}
+
+.geo-logo {
+    width: 24px;
+}
+
+/*navigation bar end*/
 
 .devices {
     width: 90%;
