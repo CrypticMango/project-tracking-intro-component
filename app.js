@@ -4,5 +4,5 @@ const navList = document.getElementById("nav-list")
 burgerButton.addEventListener("click", navPopup);
 
 function navPopup() {
-    navList.style.display = "block"
+    navList.style.display = "block";
 }
