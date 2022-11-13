@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    margin: 30px;
+    margin: 0px 0px 0px 30px;
     overflow-x: hidden;
 }
 
@@ -44,7 +44,7 @@ nav a {
 }
 
 ul {
-    width: 300px;
+    width: 313px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.192);
     text-decoration: none;
     list-style-type: none;
@@ -72,6 +72,7 @@ h1 {
     font-family: var(--barlow-condensed);
     text-transform: uppercase;
     color: var(--very-dark-blue);
+    padding-right: 20px;
 }
 
 button {
@@ -93,7 +94,7 @@ footer {
 
 .top-bar {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .the-burger {
@@ -102,6 +103,7 @@ footer {
 
 .geo-logo {
     width: 24px;
+    margin-right: 262px;
 }
 
 .nav-list {
@@ -110,15 +112,17 @@ footer {
     margin-right: auto;
     left: 0;
     right: 0;
+    top: 90px;
     text-align: center;
+    z-index: 1;
 }
 
 /*navigation bar end*/
 
 .rounded-square {
-    background-color: hsl(240, 6%, 90%);
+    background-color: hsl(240, 8%, 95%);
     width: 187px;
-    height: 395px;
+    height: 425px;
     position: absolute;
     left: 187.5px;
     top: 0px;
@@ -127,7 +131,8 @@ footer {
 }
 
 .devices {
-    width: 160%;
+    width: 147%;
+    margin-top: 60px;
     margin-bottom: 80px;
     position: relative;
     right: 22px;
@@ -155,7 +160,7 @@ footer {
 
 .project-plan {
     color:  var(--dark-grayish-blue);
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .preview {
