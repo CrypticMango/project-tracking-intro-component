@@ -99,12 +99,16 @@ footer {
 }
 
 .the-burger {
-    height: 100%;
+    position: absolute;
+    right: 30px;
+    top: 45px;
 }
 
 .geo-logo {
     width: 24px;
-    margin-right: 262px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
 }
 
 .nav-list {
@@ -113,15 +117,22 @@ footer {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 90px;
+    top: 80px;
     text-align: center;
     z-index: 1;
+}
+
+.x {
+    position: absolute;
+    right: 34px;
+    display: none;
+    top: 40px;
 }
 
 /*navigation bar end*/
 
 .rounded-square {
-    background-color: hsl(240, 8%, 95%);
+    background-color: var(--light-grayish-blue);
     width: 187px;
     height: 425px;
     position: absolute;
@@ -186,4 +197,65 @@ footer {
     color: var(--red);
     margin: 30px;
     font-size: 30px;
+}
+
+@media (min-width:1440px) {
+    h1 {
+        font-size: 60px;
+        padding-right: 50px;
+    }
+    
+    ul {
+        width: unset;
+        box-shadow: none;
+        background-color: unset;
+    }
+
+    li {
+        display: inline;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 40px;
+        left: 600px;
+    }
+    
+    .the-burger {
+        display: none;
+    }
+
+    .rounded-square {
+        width: 703px;
+        left: 720px;
+    }
+
+    .content-flip {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .left-div {
+        margin-left: 120px;
+    }
+
+    .devices {
+        margin-top: 120px;
+        width: 140%;
+        position: relative;
+        left: -10px;
+       
+    }
+
+    .nav-list {
+        display: block;
+    }
+    
 }
