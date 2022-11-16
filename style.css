@@ -72,13 +72,14 @@ h1 {
     text-transform: uppercase;
     color: var(--very-dark-blue);
     padding-right: 20px;
+    font-size: 40px;
 }
 
 button {
     font-family: var(--barlow-condensed);
     background-color: var(--red);
     color: white;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: 1px solid var(--red);
     border-radius: 5px;
     font-size: 14px;
@@ -180,8 +181,9 @@ footer {
     font-family: var(--barlow-condensed);
     text-transform: uppercase;
     color: var(--grayish-blue);
-    margin-left: 10px;
-    font-size: 16px;
+    margin-left: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
 .attribution {
@@ -203,6 +205,8 @@ footer {
     h1 {
         font-size: 60px;
         padding-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
     
     ul {
@@ -213,16 +217,60 @@ footer {
 
     li {
         display: inline;
+        padding-right: 20px;
+    }
+
+    li:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
 
     hr {
         display: none;
     }
 
+    button {
+        padding: 15px 30px;
+        font-size: 17px;
+    }
+
+    button:hover {
+        background-color: hsl(0, 92%, 75%);
+        cursor: pointer;
+    }
+
+    .grey-dot {
+        width: 5px;
+        height: 5px;
+        background-color: var(--grayish-blue);
+        border: 1px solid var(--grayish-blue);
+        border-radius: 50%;
+        display: inline-block;
+       position: relative;
+       top: -4px;
+    }
+
+    .project-plan {
+        padding-right: 330px;
+        margin-bottom: 60px;
+    }
+
+    .preview {
+        letter-spacing: 5px;
+    }
+
+    .geo-logo {
+        position: absolute;
+        left: 150px;
+        top: 70px;
+        width: 32px;
+    }
+
     .nav-list {
         position: absolute;
         top: 40px;
-        left: 600px;
+        left: 750px;
+        display: block;
     }
     
     .the-burger {
@@ -239,7 +287,7 @@ footer {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .left-div {
@@ -251,11 +299,6 @@ footer {
         width: 140%;
         position: relative;
         left: -10px;
-       
     }
 
-    .nav-list {
-        display: block;
-    }
-    
 }
